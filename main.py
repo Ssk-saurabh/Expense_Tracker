@@ -1,8 +1,8 @@
 import storage
 import summary
 import transaction_module
-print("Main file started")
-transactions = []
+from transaction_module import add_income, add_expense
+
 
 user_input = 0
 transactions = storage.load_transaction()
